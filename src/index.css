@@ -171,5 +171,28 @@ section {
     margin-top: 1rem;
     display: block;
     font-weight: 300;
+}
 
+/* MEDIA QUERIES (MEDIUM SCREENS) */
+@media  screen and (max-width: 1024px) {
+   .container {
+    width: var(--container-width-md);
+   }
+
+   h1 {
+    font-size: 2rem;
+   }
+
+   h2 {
+    font-size: 1.6rem;
+   }
+}
+
+
+/* MEDIA QUERIES (SMALL SCREENS) */
+@media  screen and (max-width: 600px) {
+    h1 {
+        font-size: 2.2rem;
+        line-height: 1.3px;
+    }
 }

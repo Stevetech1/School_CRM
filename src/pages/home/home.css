@@ -13,6 +13,8 @@
     align-items: center;
     justify-content: space-between;
     gap: 6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .main__header-left {
@@ -217,4 +219,118 @@
     font-size: 1.8rem;
     width: 3rem;
     height: 3rem;
+}
+
+
+/* FOOTER STYLING */
+footer {
+    background: var(--color-primary);
+    margin-top: 7rem;
+    padding-top: 7rem;
+    font-size: 0.9rem;
+    color: var(--colo-gray-200);
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: 26rem 1fr 1fr 1fr;
+    gap: 6rem;
+}
+
+.footer__container article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7rem;
+}
+
+.footer__container article p {
+    margin-top: 0.5rem;
+}
+
+.footer__container article h4 {
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+}
+
+.footer__socials {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.footer__socials a {
+    background: var(--color-gray-100);
+    padding: 0.7rem;
+    border: 1px solid transparent;
+    border-radius: 0.6rem;
+    transition: var(--transition);
+}
+
+.footer__socials a svg {
+    color: var(--color-gray-600);
+}
+
+.footer__socials a:hover {
+    border-color: var(--color-gray-100);
+    background: transparent;
+}
+
+.footer__copyright {
+    color: var(--color-gray-100);
+    text-align: center;
+    padding: 1.5rem 0;
+    border-top: 2px solid var(--color-primary-variant);
+    margin-top: 5rem;
+}
+
+
+/* MEDIA QUERIES (MEDIUM SCREEN) */
+@media  screen and (max-width: 1024px) {
+    /* MAIN HEADER */
+    .main__header {
+        height: fit-content;
+        padding: 12rem 0;
+    }
+    .main__header-container {
+        gap: 0;
+    }
+
+    .main__header-circle {
+        width: 16rem;
+        height: 16rem;
+    }
+
+    /* PROGRAMS */
+    .programs__wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* VALUES */
+    .values__container {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 4rem 3rem;
+    }
+
+    .values__image {
+        display: none;
+    }
+
+    /* FAQs */
+    .faqs__wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    /* TESTIMONIALS */
+    .testimonials {
+        width: 75%;
+    }
+
+    /* FOOTER */
+    .footer__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
 }
