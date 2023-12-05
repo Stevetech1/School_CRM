@@ -51,13 +51,10 @@
     position: relative;
 }
 
-.main__header-right:hover  .main__header-circle {
-    filter: blur(15px);
-}
 
 /* Completing styling the Programs section here */
 .programs {
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 .programs__wrapper {
@@ -339,7 +336,7 @@ footer {
 
 
 
-/* MEDIA QUERIES (MEDIUM SCREEN) */
+/* MEDIA QUERIES (SMALL SCREEN) */
 @media screen and (max-width: 600px) {
     /* MAIN HEADER */
     .main__header {
@@ -367,7 +364,7 @@ footer {
     .programs__wrapper {
         grid-template-columns: 1fr;
         gap: 2rem;
-        margin-top: 3rem;
+        margin-top: 2rem;
     }
 
     .programs__program {

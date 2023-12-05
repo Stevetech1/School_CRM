@@ -40,3 +40,27 @@
 .trainer:hover {
     background: var(--color-gray-500);
 }
+
+
+
+/* MEDIA QUERIES (MEDIUM SCREENS */
+@media screen and (max-width: 1024px) {
+    .trainers__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2.5rem;
+    }
+}
+
+/* MEDIA QUERIES (SMALL SCREENS */
+@media screen and (max-width: 600px) {
+    .trainers__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .card.trainer {
+        width: 90%;
+        margin-inline: auto;
+    }
+
+}

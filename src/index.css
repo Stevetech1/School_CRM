@@ -31,17 +31,13 @@
 }
 
 
-
-
-
-
 /* General styles */
 body {
     font-family: 'Poppins', sans-serif;
     color: var(--color-gray-200);
     line-height: 1.9;
     overflow-x: hidden;
-    background: var(--color-gray-600);
+    background: var(--color-gray-600) url(./images/bg_texture.png);
 }
 
 .container {
@@ -107,8 +103,6 @@ img {
 
 
 
-
-
 /* Styling the Programs sections */
 section {
     margin-top: 10rem;
@@ -127,8 +121,6 @@ section {
     color: var(--color-secondary);
     font-size: 1.5rem;
 }
-
-
 
 
 /* Styling the card section */
@@ -173,9 +165,6 @@ section {
     font-weight: 300;
     padding: 2rem 2rem;
 }
-
-
-
 
 
 
@@ -244,16 +233,6 @@ section {
     }
     
 }
-
-
-
-
-
-
-
-
-
-
 
 
 /* MEDIA QUERIES (MEDIUM SCREENS) */
