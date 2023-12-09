@@ -1,8 +1,8 @@
 import Header from '../../components/Header'
-import HeaderImage from '../../images/MITS1.jpg'
-import StoryImage from '../../images/MITS16.jpg'
-import VisionImage from '../../images/MITS15.jpg'
-import MissionImage from '../../images/MITS13.jpg'
+import HeaderImage from '../../images/Gal19.jpg'
+import StoryImage from '../../images/Gal4.jpg'
+import VisionImage from '../../images/Gal20.jpg'
+import MissionImage from '../../images/Gal21.jpg'
 import './about.css'
 
 
@@ -11,8 +11,10 @@ const About = () => {
   return (
    <>
    <Header title="About Us" image={HeaderImage}>
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, dolore quibusdam ipsum deserunt, ullam voluptate maiores deleniti 
-    aut temporibus explicabo minus reiciendis, in tempora ex distinctio asperiores necessitatibus blanditiis vel.
+   Who are We ?                                                                                                                                                             
+   We are an inter-denominational, Faith Base Organization (FBO), duly registered with the Corporate 
+   Affairs Commission of the Federal Republic of Nigeria and have affiliation and accreditation status 
+   with reputable Christian Ministries and Institutions both locally and internationally.
    </Header>
 
    <section className='about__story'>
@@ -21,21 +23,25 @@ const About = () => {
         <img src={StoryImage} alt="Our Story Image" />
       </div>
       <div className="about__section-content">
-        <h1>Our Story</h1>
+        <h3>MISSIONSVILLE INTERNATIONAL CHRISTIAN EMBASSY & THEOLOGICAL SEMINARY</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quis quae dolor quos at corrupti, 
-          quibusdam deleniti iste quidem alias? Voluptatum, dolorem eaque omnis molestiae quod nam, 
-          laborum exercitationem mollitia aspernatur quis modi repellendus similique inventore 
-          accusantium odit, maxime qui?
+          (An Interdenominational Centre for Global Missions, Discipleship, Leadership Development & Social Services)                  
+          Plot 170A, Cadastral Zone Layout III, Kuje Road, Gwagwalada, Abuja, FCT-Nigeria
+          Affiliated to Kingdom Life University, Tampa Florida, USA and Accredited by OMNI Missions 
+          Academy @ Great Commission Ministries, Minneapolis, Minnesota, USA.
+          “Equipping the Saints for the Work of the Ministry” (Ephesians 4: 11-13)
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam cum, aliquam quas dicta 
-          officia obcaecati possimus fugiat necessitatibus, dolorum optio minus veniam iste 
-          nesciunt temporibus pariatur numquam corrupti. Accusamus, quod.
+          For cutting edge Christian ministry, it is imperative for every Christian Worker or Minister, 
+          to seek to acquire the relevant theological training such as we offer here in Missionsville 
+          International Theological Seminary (MITS). Zeal is good. But zeal without appropriate knowledge 
+          is counterproductive and destructive both to the minister and the people been ministered to. 
+          Ultimately, the damaging consequence on the generality of the society is better imagined than seen.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minima eos excepturi! 
-          Sint nostrum rem illo repudiandae veritatis animi aliquid.
+          The training we offer is very comprehensive.  Our curriculum is second to none and it is tailored 
+          to suit ministry in all context. We are not only equipping our seminarians with sound theological 
+          education, we also ordain and license them upon graduation as global agents of transformation.
         </p>
       </div>
     </div>
@@ -49,17 +55,10 @@ const About = () => {
       </div>
       
       <div className="about__section-content">
-        <h1>Our Vision</h1>
+        <h2>Our Vision</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quis quae dolor quos at corrupti, 
-          quibusdam deleniti iste quidem alias? Voluptatum, dolorem eaque omnis molestiae quod nam, 
-          laborum exercitationem mollitia aspernatur quis modi repellendus similique inventore 
-          accusantium odit, maxime qui?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam cum, aliquam quas dicta 
-          officia obcaecati possimus fugiat necessitatibus, dolorum optio minus veniam iste 
-          nesciunt temporibus pariatur numquam corrupti. Accusamus, quod.
+        Our Vision is to preach the Gospel of the Kingdom to all Nations around the World and to 
+        equip the Saints for the Work of the Ministry. (Matthew 28:19-20; Mark 16:15-18; Ephesians 4:11-13)
         </p>
         
       </div>
@@ -74,21 +73,14 @@ const About = () => {
         <img src={MissionImage} alt="Our Mission Image" />
       </div>
       <div className="about__section-content">
-        <h1>Our Mission</h1>
+        <h2>Our Mission</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quis quae dolor quos at corrupti, 
-          quibusdam deleniti iste quidem alias? Voluptatum, dolorem eaque omnis molestiae quod nam, 
-          laborum exercitationem mollitia aspernatur quis modi repellendus similique inventore 
-          accusantium odit, maxime qui?
+        We are committed to Global Evangelization & Missions; Discipleship; Leadership Development; 
+        Community Service and Capacity Building with a view to equipping the Saints for kingdom advancement.
         </p>
+        <h2>Motto</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam cum, aliquam quas dicta 
-          officia obcaecati possimus fugiat necessitatibus, dolorum optio minus veniam iste 
-          nesciunt temporibus pariatur numquam corrupti. Accusamus, quod.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minima eos excepturi! 
-          Sint nostrum rem illo repudiandae veritatis animi aliquid.
+        “Equipping the Saints for the Work of the Ministry” (Ephesians 4: 11-13)
         </p>
       </div>
     </div>

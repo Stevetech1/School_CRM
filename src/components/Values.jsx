@@ -1,4 +1,4 @@
-import Image from '../images/MITS14.jpg';
+import Image from '../images/Flags.jpg';
 import SectionHead from './SectionHead';
 import {GiCutDiamond} from 'react-icons/gi';
 import {values} from '../data';

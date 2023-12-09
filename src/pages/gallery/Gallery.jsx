@@ -1,13 +1,13 @@
 import Header from '../../components/Header'
-import HeaderImage from '../../images/MITS17.jpg'
+import HeaderImage from '../../images/Gal19.jpg'
 import './gallery.css'
 
 const Gallery = () => {
-  const galleryLength = 15;
+  const galLength = 15;
   const images = []
 
-  for(let i = 1; i <= galleryLength; i++) {
-    images.push(require(`../../images/MITS${i}.jpg`))
+  for(let i = 1; i <= galLength; i++) {
+    images.push(require(`../../images/Gal${i}.jpg`))
   }
 
   console.log(images);

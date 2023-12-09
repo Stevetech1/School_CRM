@@ -1,5 +1,5 @@
 import Header from "../../components/Header";
-import HeaderImage from '../../images/MITS18.jpg';
+import HeaderImage from '../../images/Gal19.jpg';
 import { trainers } from "../../data";
 import {BsInstagram} from 'react-icons/bs';
 import {AiOutlineTwitter} from 'react-icons/ai';
@@ -20,8 +20,8 @@ const Trainers = () => {
     <section className="trainers">
       <div className="container trainers__container">
         {
-          trainers.map(({id, image, name, job, socials}) => {
-           return <Trainer key={id} image={image} name={name} job={job} socials={
+          trainers.map(({id, image, name, job, course, socials}) => {
+           return <Trainer key={id} image={image} name={name} job={job} course={course} socials={
               [
                 {icon: <BsInstagram/>, link: socials[0]},
                 {icon: <AiOutlineTwitter/>, link: socials[1]},

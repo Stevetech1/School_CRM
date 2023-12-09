@@ -32,44 +32,36 @@ export const links = [
 
 
 
-
-
-
 export const programs = [
     {
         id: 1,
         icon: <SiOpenaigym/>,
-        title: "Program One",
+        title: "Bachelor Degree Theo",
         info: "This is the day that the lord has made. We will rejoice!",
         path: "/programs/111"
     },
     {
         id: 2,
         icon: <SiOpenaigym/>,
-        title: "Program Two",
+        title: "Postgraduate Diploma",
         info: "This is the day that the lord has made. We will rejoice!",
         path: "/programs/222"
     },
     {
         id: 3,
         icon: <SiOpenaigym/>,
-        title: "Program Three",
+        title: "Masters Theo.",
         info: "This is the day that the lord has made. We will rejoice!",
         path: "/programs/333"
     },
     {
         id: 4,
         icon: <SiOpenaigym/>,
-        title: "Program Four",
+        title: "PhD Theo.",
         info: "This is the day that the lord has made. We will rejoice!",
         path: "/programs/444"
     }
 ]
-
-
-
-
-
 
 
 
@@ -99,10 +91,6 @@ export const values = [
         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
     }
 ]
-
-
-
-
 
 
 
@@ -144,51 +132,43 @@ export const faqs = [
 
 
 
-
-
-
-
 export const testimonials = [
     {
         id: 1,
-        name: "Diana Ayi",
+        name: "Prof. Joseph Ayikoye",
         quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
-        job: "Student",
-        avatar: require("./images/MITS1.jpg")
+        job: "President/Senior Faculty",
+        avatar: require("./images/Prof.jpg")
     },
     {
         id: 2,
-        name: "Daniel Vinyo",
+        name: "Prof. Adenyanu Peter",
         quote: "Harum quaerat hic consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum this and that odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-        job: "Software Egineer",
-        avatar: require("./images/MITS2.jpg")
+        job: "Dean of Postgraduate Studies",
+        avatar: require("./images/Peter.jpg")
     },
     {
         id: 3,
-        name: "Edem Quist",
+        name: "Rev. (Mrs) Blessing Ayikoye",
         quote: "Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-        job: "University Lecturer",
-        avatar: require("./images/MITS3.jpg")
+        job: "Registrar/Lecturer",
+        avatar: require("./images/Blessing.jpg")
     },
     {
         id: 4,
-        name: "Grace Lavoe",
+        name: "Dr. (Mrs.) Joy Egbunu",
         quote: "Cupiditate deleniti sint consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-        job: "Talking Parrot",
-        avatar: require("./images/MITS4.jpg")
+        job: "Lecturer",
+        avatar: require("./images/Joy.jpg")
     },
     {
         id: 5,
-        name: "Nana Yaa Dankwa",
+        name: "Rev. (Dr) Titus Ameh",
         quote: "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
-        job: "Pharmacist",
-        avatar: require("./images/MITS5.jpg")
+        job: "Lecturer",
+        avatar: require("./images/Titus.jpg")
     }
 ]
-
-
-
-
 
 
 
@@ -261,60 +241,97 @@ export const plans = [
 
 
 
-
-
-
-
-
-const Trainer1 = require('./images/MITS6.jpg')
-const Trainer2 = require('./images/MITS7.jpg')
-const Trainer3 = require('./images/MITS8.jpg')
-const Trainer4 = require('./images/MITS9.jpg')
-const Trainer5 = require('./images/MITS10.jpg')
-const Trainer6 = require('./images/MITS11.jpg')
+const Trainer1 = require('./images/Prof.jpg')
+const Trainer2 = require('./images/Peter.jpg')
+const Trainer3 = require('./images/Titus.jpg')
+const Trainer4 = require('./images/Paul.jpg')
+const Trainer5 = require('./images/Blessing.jpg')
+const Trainer6 = require('./images/Joy.jpg')
+const Trainer7 = require('./images/Chris.jpg')
+const Trainer8 = require('./images/Colins.jpg')
+const Trainer9 = require('./images/Lare.jpg')
+// const Trainer10 = require('./images/Greek.jpg')
 
 
 export const trainers = [
     {
         id: 1,
         image: Trainer1,
-        name: 'John Doe',
-        job: 'Aerobic Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+        name: 'Prof. Joseph Ayikoye',
+        job: 'President/Senior Faculty',
+        course: 'Christian Education & Missiology',
+        socials: ['https://instagram.com/osenichri', 'https://twitter.com/', 'https://facebook.com/josephayikoye', 'https://linkedin.com/']
     },
     {
         id: 2,
         image: Trainer2,
-        name: 'Daniel vinyo',
-        job: 'Speed Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+        name: 'Prof. Adeyanju Peter',
+        job: 'Dean of Postgraduate Studies',
+        course: 'Christian Education &  Anthropology',
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/peterdradeyanju', 'https://linkedin.com/']
     },
     {
         id: 3,
         image: Trainer3,
-        name: 'Edem Quist',
-        job: 'Flexibility Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+        name: 'Dr. Titus Eneojo Ameh',
+        job: 'Senior Faculty',
+        course: 'Pastoral Studies',
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/titusameh', 'https://linkedin.com/']
     },
     {
         id: 4,
         image: Trainer4,
-        name: 'Shatta Wale',
-        job: 'Body Composition Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+        name: 'Rev. Paul Bango',
+        job: 'Research Assistant',
+        course: 'Resource Management & Pastoral Studies',
+        socials: ['https://instagram.com/apostlebangopaul', 'https://twitter.com/', 'https://facebook.com/apostlebangopaul', 'https://linkedin.com/']
     },
     {
         id: 5,
         image: Trainer5,
-        name: 'Diana Ayi',
-        job: 'Circuit Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
+        name: 'Rev.(Mrs.) Blessing Ayikoye',
+        job: 'Registrar/Lecturer',
+        course : 'Educational Admin. & Theology',
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/blessingayikoye', 'https://linkedin.com/']
     },
     {
         id: 6,
         image: Trainer6,
-        name: 'Wayne Carter',
-        job: 'Physical Intelligence Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
-    }
+        name: 'Dr. (Mrs.) Joy Egbunu',
+        job: 'Senior Faculty',
+        course: 'Pastoral Studies',
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/joyegbunu', 'https://linkedin.com/']
+    },
+    {
+        id: 7,
+        image: Trainer7,
+        name: 'Rev. Christopher Oseni',
+        job: 'Lecturer',
+        course: 'Theology & ICT',
+        socials: ['https://instagram.com/osenichris', 'https://twitter.com/', 'https://facebook.com/osenichris', 'https://linkedin.com/']
+    },
+    {
+        id: 8,
+        image: Trainer8,
+        name: 'Rev. Collyns Ohenhen',
+        job: 'Lecturer',
+        course: 'Biblical Studies',
+        socials: ['https://instagram.com/collynsohenhen', 'https://twitter.com/', 'https://facebook.com/collynsohenhen', 'https://linkedin.com/']
+    },
+    {
+        id: 9,
+        image: Trainer9,
+        name: 'Rev. O.O. Lare-Jemmy',
+        job: 'Lecturer',
+        course: 'Pastoral Studies',
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/oladelelare-jemmy', 'https://linkedin.com/']
+    },
+    // {
+    //     id: 10,
+    //     image: Trainer10,
+    //     nmae: 'Ani Chukwuemeka Humphrey',
+    //     job: 'Lecturer',
+    //     course: 'Greek & Hebrew language',
+    //     social: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/oladelelare-jemmy', 'https://linkedin.com/']
+    // }
 ]

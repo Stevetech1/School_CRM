@@ -1,5 +1,5 @@
 import Header from '../../components/Header'
-import HeaderImage from '../../images/MITS10.jpg'
+import HeaderImage from '../../images/Gal3.jpg'
 import Card from '../../UI/Card'
 import {plans} from '../../data'
 import './plans.css'
