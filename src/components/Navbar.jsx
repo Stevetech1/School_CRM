@@ -7,7 +7,7 @@ import {MdOutlineClose} from 'react-icons/md'
 import { links } from '../data';
 
 const Navbar = () => {
-    const [isNavShowing, setIsNavShowing] = useState(false); // Added 'const' and square brackets
+    const [isNavShowing, setIsNavShowing] = useState(false);
 
     return (
         <nav>

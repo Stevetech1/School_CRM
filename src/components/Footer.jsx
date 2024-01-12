@@ -28,21 +28,21 @@ const Footer = () => {
             </a>
             <a
               href="https://facebook.com"
-              target="_blank"
+              target="steveojata"
               rel="noreferer noopener"
             >
               <FaFacebookF />
             </a>
             <a
               href="https://twitter.com"
-              target="_blank"
+              target="stevetech17"
               rel="noreferer noopener"
             >
               <AiOutlineTwitter />
             </a>
             <a
               href="https://instagram.com"
-              target="_blank"
+              target="Stevetech"
               rel="noreferer noopener"
             >
               <AiFillInstagram />
@@ -73,7 +73,7 @@ const Footer = () => {
      </div>
     <div className="footer__copyright">
         <small>
-          2023 MISSIONVILLE INTERNATIONAL THEOLOGY &copy; All Rights Reserved
+          2024 MISSIONVILLE INTERNATIONAL THEOLOGY &copy; All Rights Reserved
         </small>
       </div>
     </footer>

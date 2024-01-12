@@ -1,0 +1,46 @@
+/* External stylesheet for Login component */
+
+.container-wrapper-css {
+    margin: 50px;
+    margin-top: 10rem;
+  }
+  
+  .container-css {
+    max-width: 25rem;
+    height: 30rem;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-div-css {
+    margin-top: 2rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .form-control {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn-block {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }

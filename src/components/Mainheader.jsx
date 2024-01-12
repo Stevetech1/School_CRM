@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 import image from '../images/Signboard.png';
 
@@ -17,7 +18,7 @@ const Mainheader = () => {
            It is our greatest pleasure to recommend to you the Missionsville International Theological Seminary 
            (MITS). It is an experience you will forever live to cherish. 
          </p>
-          <Link to="/plans" className="btn lg">Get Started</Link>
+          <Link to="/Signup" className="btn lg">Get Started</Link>
         </div>
         <div className="main__header-right">
           <div className="main__header-circle"></div>

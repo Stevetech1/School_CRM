@@ -99,32 +99,32 @@ export const values = [
 export const faqs = [
     {
         id: 1,
-        question: "How often should I exercise?",
+        question: "How will be involved?",
         answer: "Consectetur adipisicing elit. Non ipsa dolorem, rem consequatur eum omnis ex, fuga temporibus qui nesciunt odio aliquam commodi culpa inventore ut similique repellendus perferendis sint!"
     },
     {
         id: 2,
-        question: "What time of day is best to work out?",
+        question: "How will i become an MITS Student?",
         answer: "Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui. Eos, omnis beatae? Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit."
     },
     {
         id: 3,
-        question: "How long should my workouts be?",
+        question: "How should i become MITS Alumin?",
         answer: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."
     },
     {
         id: 4,
-        question: "Do I need to warm up before my workouts?",
+        question: "Do I need to own church before enrolling for MITS Program?",
         answer: "Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate? Qui totam est omnis dolor nobis quisquam veritatis a!"
     },
     {
         id: 5,
-        question: "Should I do strength training, cardio or both?",
+        question: "Must be ordain as an MITS graduate?",
         answer: "Maiores fuga, cum praesentium esse laudantium! Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui."
     },
     {
         id: 6,
-        question: "Should I lift weights for strength training?",
+        question: "Is MITS Training qualify me for international participation?",
         answer: "Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate."
     }
 ]
@@ -175,7 +175,7 @@ export const testimonials = [
 export const plans = [
     {
         id: 1,
-        name: 'Silver Package',
+        name: 'Bachelor Degree Theology',
         desc: 'This package is perfect for beginners who need constant help',
         price: 29.99,
         features: [
@@ -196,8 +196,8 @@ export const plans = [
     },
     {
         id: 2,
-        name: 'Gold Package',
-        desc: 'This is the perfect package for beginners who know what their doing',
+        name: 'PGD Theology',
+        desc: 'This is the perfect package for beginners who know what they are doing',
         price: 49.99,
         features: [
             {feature: 'First Feature', available: true},
@@ -217,9 +217,30 @@ export const plans = [
     },
     {
         id: 3,
-        name: 'Platinum Package',
-        desc: 'This package is perfect for busy people who need home service',
+        name: 'MSc. Theology',
+        desc: 'This package is perfect for those going for full service',
         price: 89.99,
+        features: [
+            {feature: 'First Feature', available: true},
+            {feature: 'Second Feature', available: true},
+            {feature: 'Third Feature', available: true},
+            {feature: 'Fourth Feature', available: true},
+            {feature: 'Fifth Feature', available: true},
+            {feature: 'Fifth Feature Plus', available: true},
+            {feature: 'Sixth Feature', available: true},
+            {feature: 'Seventh Feature', available: true},
+            {feature: 'Seventh Feature Plus', available: true},
+            {feature: 'Eighth Feature', available: true},
+            {feature: 'Ninth Feature', available: true},
+            {feature: 'Tenth Feature', available: true},
+            {feature: 'Eleventh Feature', available: true}
+        ]
+    },
+    {
+        id: 4,
+        name: 'PhD. Theology',
+        desc: 'This package is perfect for people who want to reach the peak of service',
+        price: 100,
         features: [
             {feature: 'First Feature', available: true},
             {feature: 'Second Feature', available: true},
@@ -318,14 +339,14 @@ export const trainers = [
         course: 'Biblical Studies',
         socials: ['https://instagram.com/collynsohenhen', 'https://twitter.com/', 'https://facebook.com/collynsohenhen', 'https://linkedin.com/']
     },
-    {
-        id: 9,
-        image: Trainer9,
-        name: 'Rev. O.O. Lare-Jemmy',
-        job: 'Lecturer',
-        course: 'Pastoral Studies',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/oladelelare-jemmy', 'https://linkedin.com/']
-    },
+    // {
+    //     id: 9,
+    //     image: Trainer9,
+    //     name: 'Rev. O.O. Lare-Jemmy',
+    //     job: 'Lecturer',
+    //     course: 'Pastoral Studies',
+    //     socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/oladelelare-jemmy', 'https://linkedin.com/']
+    // },
     // {
     //     id: 10,
     //     image: Trainer10,

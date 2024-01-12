@@ -38,15 +38,6 @@
     position: relative;
 }
 
-.main__header-circle {
-    width: 25rem;
-    height: 25rem;
-    background: linear-gradient(75deg, var(--color-secondary), transparent);
-    border-radius: 50%;
-    position: absolute;
-    transition: var(--transition);   
-}
-
 .main__header-image {
     position: relative;
 }
@@ -222,7 +213,7 @@
 /* FOOTER STYLING */
 footer {
     background: var(--color-primary);
-    margin-top: 7rem;
+    /* margin-top: 7rem; */
     padding-top: 7rem;
     font-size: 0.9rem;
     color: var(--colo-gray-200);
